@@ -10,7 +10,7 @@
         /*CSS RESETS*/
 
 body{
-    background-color: #DEEBF1;
+    background-color: #fff;
     line-height: 1.6;
 
 }
@@ -50,7 +50,7 @@ h1 {
 
 .clock {
     display: inline-block;
-    font-family: 'Courier New', monospace;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1.2em;
     /* padding-left: 20px; */
@@ -71,14 +71,14 @@ h1 {
     min-width: 162px;
     /* padding-right: 30px; */
     /* border-right: 2px solid #295C7B; */
-    font-family: 'Courier New', monospace;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
 }
 .greet{
     
     min-width: 162px;
     /* padding-right: 30px; */
-    font-family: 'Courier New', monospace;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
 }
 
@@ -125,11 +125,11 @@ else{
 }
 hrs = today.getHours();
 if (hrs < 12)
-        greet = 'Good Morning, Lisa ';
+        greet = 'Good Morning  ';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Afternoon, Lisa';
+        greet = 'Good Afternoon ';
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'Good Evening, Lisa';
+        greet = 'Good Evening  ';
 // console.log(today.toLocaleTimeString());
 document.getElementById('greet').innerHTML = greet;
 document.getElementById('hour').innerHTML = hour;
@@ -165,3 +165,4 @@ dateTime()
 </script>
 
 </body>
+</html>
